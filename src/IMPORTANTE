@@ -1,0 +1,10 @@
+Nota para github pages:
+Cada vez que realices cambios en tu proyecto y desees actualizarlos en GitHub Pages, realiza estos pasos:
+
+1. Asegúrate de hacer un commit y push de tus cambios al repositorio.
+
+2. Ejecuta nuevamente:
+npm run build
+npm run deploy
+
+netlify:

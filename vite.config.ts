@@ -9,4 +9,6 @@ export default defineConfig({
       },
     },
   },
+  base: '/Generador_de_actividades/',
+  plugins: []
 });

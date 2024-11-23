@@ -80,8 +80,7 @@ function procesarActividad(newActivity:boolean = false) {
         muestraActividad(actividad, imagenUrl, actividades.length === 1);
       })
     })
-    .catch((error) => {
-      console.log(error);
+    .catch(() => {
       inicio();
       document.getElementById('error')!.textContent = 'Se agotaron las peticiones 😣 vuelve luego 👌';
     })
