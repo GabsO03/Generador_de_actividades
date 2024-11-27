@@ -3,7 +3,7 @@ import { Imagenes } from "./imagen.interface";
 
 export async function consigueActividad(participants:number, type:string):Promise<Activity[]> {
     return await new Promise<Activity[]>((resolve, reject) => {
-        fetch('https://bored-api.appbrewery.com/filter?participants=' + participants + '&type=' + type)
+        fetch('/api/filter?participants=' + participants + '&type=' + type)
         .then((response) => response.json())
         .then((data) => {
             resolve(data);
